@@ -48,11 +48,7 @@ enum Role {
   READ_ONLY,
   AUTHOR,
 }
-let user: {
-  name: string;
-  email: string;
-  role: Role;
-} = {
+var user = {
   name: "umar",
   email: "umar@gmail.com",
   role: Role.AUTHOR,
